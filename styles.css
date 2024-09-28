@@ -73,11 +73,23 @@ p {
     margin: 20px 0;
 }
 figure {
+    position: relative;
     text-align: center;
 }
 img {
     width: 100%;
     height: auto;
+}
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:var(--black);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 @media (min-width: 428px){
